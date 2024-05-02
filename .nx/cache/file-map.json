@@ -1,0 +1,2149 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.6.0",
+  "deps": {
+    "@angular/animations": "^17.2.0",
+    "@angular/common": "^17.2.0",
+    "@angular/core": "^17.2.0",
+    "@angular/platform-browser": "^17.2.0",
+    "@angular/platform-browser-dynamic": "^17.2.0",
+    "@angular/platform-server": "^17.2.0",
+    "@angular/router": "^17.2.0",
+    "@angular/service-worker": "^17.2.0",
+    "@push-based/ngx-fast-svg": "^0.3.1",
+    "@rx-angular/cdk": "^16.0.0",
+    "@rx-angular/eslint-plugin": "^1.0.0",
+    "@rx-angular/state": "^16.0.0",
+    "@rx-angular/template": "^16.0.2",
+    "core-js": "^2.6.12",
+    "express": "^4.18.2",
+    "firebase-functions": "^4.4.0",
+    "ngx-isr": "^0.5.5",
+    "rxjs": "^7.8.1",
+    "server-timing": "^3.3.3",
+    "zone.js": "~0.13.1",
+    "@angular-devkit/build-angular": "^17.2.0",
+    "@angular-eslint/builder": "^17.2.0",
+    "@angular-eslint/eslint-plugin": "^17.2.0",
+    "@angular-eslint/eslint-plugin-template": "^17.2.0",
+    "@angular-eslint/schematics": "^17.2.0",
+    "@angular-eslint/template-parser": "^17.2.0",
+    "@angular/cli": "^17.2.0",
+    "@angular/compiler": "^17.2.0",
+    "@angular/compiler-cli": "^17.2.0",
+    "@angular/language-service": "^17.2.0",
+    "@cloudflare/workers-types": "^4.20230511.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/cz-commitlint": "^12.1.4",
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@miniflare/tre": "^3.0.0-next.13",
+    "@nguniversal/builders": "^16.2.0",
+    "@nguniversal/common": "^16.2.0",
+    "@nguniversal/express-engine": "^16.2.0",
+    "@nx/angular": "16.6.0",
+    "@nx/devkit": "16.6.0",
+    "@nx/esbuild": "16.6.0",
+    "@nx/eslint-plugin": "16.6.0",
+    "@nx/jest": "16.6.0",
+    "@nx/js": "16.6.0",
+    "@nx/node": "16.6.0",
+    "@nx/webpack": "16.6.0",
+    "@nx/workspace": "16.6.0",
+    "@push-based/user-flow": "^0.20.0",
+    "@push-based/user-flow-nx-plugin": "^0.1.0",
+    "@rx-angular/import-graph-visualizer": "^0.2.0",
+    "@schematics/angular": "^16.0.3",
+    "@size-limit/file": "^7.0.8",
+    "@types/compression": "^1.7.2",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.11.7",
+    "@types/yargs": "^17.0.24",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "cash-true": "0.0.2",
+    "commitizen": "^4.2.4",
+    "compression": "^1.7.4",
+    "concurrently": "^6.2.0",
+    "domino": "^2.1.6",
+    "esbuild": "^0.17.19",
+    "eslint": "^8.39.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-markdownlint": "^0.4.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unicorn": "^48.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "fast-glob": "^3.2.12",
+    "find-process": "^1.4.4",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions-test": "^3.1.0",
+    "firebase-tools": "^12.1.0",
+    "http-server": "^0.11.1",
+    "husky": "^7.0.4",
+    "jest": "^29.4.1",
+    "jest-environment-node": "^29.4.1",
+    "lighthouse": "^9.6.8",
+    "lint-staged": "^11.2.6",
+    "markdownlint": "^0.29.0",
+    "nx": "16.6.0",
+    "nx-cloud": "16.3.0",
+    "open": "^8.4.0",
+    "postcss-preset-env": "^9.1.0",
+    "prettier": "^2.6.2",
+    "puppeteer": "^13.4.1",
+    "source-map-explorer": "^2.5.3",
+    "sqlite3": "^5.0.2",
+    "stylelint": "^13.13.1",
+    "stylelint-prettier": "^1.2.0",
+    "terminate": "^2.2.1",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "5.0.4",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "wrangler": "^3.0.1",
+    "yargs": "^17.3.1"
+  },
+  "pathMappings": {
+    "angular-movies": [
+      "dist/projects/movies/src/main.js",
+      "projects/movies/src/index.ts"
+    ],
+    "angular-movies-renderer2": [
+      "angular-movies-renderer2/src/index.ts"
+    ],
+    "movies-ufo": [
+      "projects/movies-user-flows/src/index.ts"
+    ],
+    "test-selectors": [
+      "projects/test-selectors/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "projectFileMap": {
+    "cloudflare-worker": [
+      {
+        "file": "projects/cloudflare-worker/.eslintrc.json",
+        "hash": "17978237886124107252"
+      },
+      {
+        "file": "projects/cloudflare-worker/.user-flowrc.action-hack.json",
+        "hash": "15413980827806977359"
+      },
+      {
+        "file": "projects/cloudflare-worker/Readme.md",
+        "hash": "2193133272653721846"
+      },
+      {
+        "file": "projects/cloudflare-worker/project.json",
+        "hash": "17846799324123870642"
+      },
+      {
+        "file": "projects/cloudflare-worker/src/app/app.config.ts",
+        "hash": "9824229544497946186",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@angular/platform-server",
+          "npm:@push-based/ngx-fast-svg",
+          "npm:@rx-angular/cdk",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/src/app/bootstrap.ts",
+        "hash": "8235960044746521081",
+        "deps": [
+          "npm:@angular/core",
+          "movies",
+          "npm:zone.js"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/src/app/environment.token.ts",
+        "hash": "14951493551350593608",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/src/app/icon-load.worker.strategy.ts",
+        "hash": "1162459506745149396",
+        "deps": [
+          "npm:@angular/common",
+          "npm:@angular/core",
+          "npm:@push-based/ngx-fast-svg",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "projects/cloudflare-worker/src/index.ts",
+        "hash": "8770765409329039418",
+        "deps": [
+          "npm:zone.js",
+          "npm:@angular/platform-server"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/tooling/bundle.mjs",
+        "hash": "5300918076958400413",
+        "deps": [
+          "npm:node:fs/promises",
+          "npm:node:path",
+          "npm:esbuild",
+          "npm:@esbuild-plugins/node-globals-polyfill",
+          "npm:@esbuild-plugins/node-modules-polyfill",
+          "npm:fast-glob"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/tooling/clean-output-folder.mjs",
+        "hash": "3900004404474640141",
+        "deps": [
+          "npm:node:fs",
+          "npm:fs"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/tooling/copy-files.mjs",
+        "hash": "12640707298454502927",
+        "deps": [
+          "npm:node:fs"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/tooling/copy-worker-files.mjs",
+        "hash": "7242334642312155339",
+        "deps": [
+          "npm:node:fs",
+          "npm:node:path"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/tooling/paths.mjs",
+        "hash": "16604847726909413989",
+        "deps": [
+          "npm:node:path",
+          "npm:node:url"
+        ]
+      },
+      {
+        "file": "projects/cloudflare-worker/tooling/utils.mjs",
+        "hash": "14548708853795036814"
+      },
+      {
+        "file": "projects/cloudflare-worker/tsconfig.json",
+        "hash": "4014297919728641916"
+      },
+      {
+        "file": "projects/cloudflare-worker/tsconfig.spec.json",
+        "hash": "16046929630123820229"
+      },
+      {
+        "file": "projects/cloudflare-worker/tsconfig.tooling.json",
+        "hash": "7453560543892090675"
+      },
+      {
+        "file": "projects/cloudflare-worker/tsconfig.worker.json",
+        "hash": "1400038873162807536"
+      },
+      {
+        "file": "projects/cloudflare-worker/user-flows/ci-flow.uf.ts",
+        "hash": "16683439452940005839",
+        "deps": [
+          "npm:@push-based/user-flow",
+          "movies-user-flows"
+        ]
+      }
+    ],
+    "docs": [
+      {
+        "file": "projects/docs/.eslintrc.json",
+        "hash": "2057532001278469239"
+      },
+      {
+        "file": "projects/docs/README.md",
+        "hash": "4806758789816780665"
+      },
+      {
+        "file": "projects/docs/project.json",
+        "hash": "15890572831897570199"
+      },
+      {
+        "file": "projects/docs/resources/lighthouse-reporting.md",
+        "hash": "10416033239731731146"
+      },
+      {
+        "file": "projects/docs/resources/setup-git-hooks.md",
+        "hash": "16435604818440819820"
+      },
+      {
+        "file": "projects/docs/src/static/BASE_README.md",
+        "hash": "17722242320630203990"
+      },
+      {
+        "file": "projects/docs/tooling/bundle-stats/commands/update-docs.ts",
+        "hash": "332469881268079829",
+        "deps": [
+          "npm:../../../../../tooling/cli/model",
+          "npm:../../../../../tooling/cli/utils",
+          "npm:fs"
+        ]
+      },
+      {
+        "file": "projects/docs/tooling/bundle-stats/index.ts",
+        "hash": "8061522237882152930",
+        "deps": [
+          "npm:yargs",
+          "npm:../../../../tooling/cli/model",
+          "npm:../../../../tooling/cli"
+        ]
+      },
+      {
+        "file": "projects/docs/tooling/bundle-stats/utils.ts",
+        "hash": "16886555795475013345",
+        "deps": [
+          "npm:fs"
+        ]
+      },
+      {
+        "file": "projects/docs/tsconfig.json",
+        "hash": "2959589534995814609"
+      },
+      {
+        "file": "projects/docs/tsconfig.tooling.json",
+        "hash": "4602316123794405057"
+      }
+    ],
+    "movies-user-flows": [
+      {
+        "file": "projects/movies-user-flows/.eslintrc.json",
+        "hash": "12121586275417654578"
+      },
+      {
+        "file": "projects/movies-user-flows/.user-flowrc.json",
+        "hash": "4109417608623569918"
+      },
+      {
+        "file": "projects/movies-user-flows/README.md",
+        "hash": "1694743423394498127"
+      },
+      {
+        "file": "projects/movies-user-flows/experiments/.user-flowrc.lcp.json",
+        "hash": "12630295657922708830"
+      },
+      {
+        "file": "projects/movies-user-flows/experiments/Readme.md",
+        "hash": "10855329218542596105"
+      },
+      {
+        "file": "projects/movies-user-flows/experiments/lcp-experiment.uf.ts",
+        "hash": "11559290395719988110",
+        "deps": [
+          "npm:@push-based/user-flow"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/experiments/movie-detail-page-to-movie-detail-page-navigation--warm.uf.ts",
+        "hash": "8329651283947491798",
+        "deps": [
+          "npm:@push-based/user-flow"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/experiments/scripts/example.html",
+        "hash": "4713519456729743479"
+      },
+      {
+        "file": "projects/movies-user-flows/experiments/scripts/localhost-4200-lcp-experiment-20221217T211822.json",
+        "hash": "14137108022282776888"
+      },
+      {
+        "file": "projects/movies-user-flows/experiments/scripts/log-lcp-from-audit.ts",
+        "hash": "15792392621886171781",
+        "deps": [
+          "npm:fs",
+          "npm:path",
+          "npm:domino"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/experiments/scripts/tsconfig.json",
+        "hash": "14039705098263257975"
+      },
+      {
+        "file": "projects/movies-user-flows/package.json",
+        "hash": "15261252752672649325"
+      },
+      {
+        "file": "projects/movies-user-flows/project.json",
+        "hash": "11092675294701880454"
+      },
+      {
+        "file": "projects/movies-user-flows/src/fixtures/tmdb.fixtures.ts",
+        "hash": "7812184078106314946"
+      },
+      {
+        "file": "projects/movies-user-flows/src/index.ts",
+        "hash": "14623637928097660294"
+      },
+      {
+        "file": "projects/movies-user-flows/src/internals/test-sets.ts",
+        "hash": "17493372868807530557",
+        "deps": [
+          "npm:fs",
+          "npm:lighthouse",
+          "npm:@push-based/user-flow"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/desktop/movie-detail-page.ufo.ts",
+        "hash": "16691100756615651621",
+        "deps": [
+          "test-selectors",
+          "npm:@push-based/user-flow"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/desktop/movie-list-page.ufo.ts",
+        "hash": "387900814156035250",
+        "deps": [
+          "test-selectors",
+          "npm:@push-based/user-flow"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/desktop/side-bar.ufo.ts",
+        "hash": "12284636630488008119",
+        "deps": [
+          "npm:@push-based/user-flow",
+          "test-selectors"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/desktop/tmdb.ufo.ts",
+        "hash": "12266293450421715689",
+        "deps": [
+          "npm:@push-based/user-flow"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/desktop/tool-bar.ufo.ts",
+        "hash": "3186836047669493063",
+        "deps": [
+          "test-selectors",
+          "npm:@push-based/user-flow"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/desktop/ui-cast-list.ufo.ts",
+        "hash": "2485554873367781650",
+        "deps": [
+          "test-selectors",
+          "npm:@push-based/user-flow"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/desktop/ui-movie-list.ufo.ts",
+        "hash": "12147268249797304061",
+        "deps": [
+          "test-selectors",
+          "npm:@push-based/user-flow"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/mobile/side-bar.ufo.ts",
+        "hash": "1654534317146973329",
+        "deps": [
+          "npm:@push-based/user-flow",
+          "test-selectors"
+        ]
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/typings/back-navigation.interface.ts",
+        "hash": "11267759034645067046"
+      },
+      {
+        "file": "projects/movies-user-flows/src/ufo/typings/cwv.interface.ts",
+        "hash": "9798218814791594917"
+      },
+      {
+        "file": "projects/movies-user-flows/tsconfig.json",
+        "hash": "10748208676638509941"
+      },
+      {
+        "file": "projects/movies-user-flows/tsconfig.lib.json",
+        "hash": "10380830996711605749"
+      }
+    ],
+    "firebase-function": [
+      {
+        "file": "projects/firebase-function/.eslintrc.json",
+        "hash": "17978237886124107252"
+      },
+      {
+        "file": "projects/firebase-function/.user-flowrc.json",
+        "hash": "3167498133750792025"
+      },
+      {
+        "file": "projects/firebase-function/Readme.md",
+        "hash": "12441657138552157084"
+      },
+      {
+        "file": "projects/firebase-function/jest.config.ts",
+        "hash": "5700894357676559844"
+      },
+      {
+        "file": "projects/firebase-function/project.json",
+        "hash": "8296329476680344441"
+      },
+      {
+        "file": "projects/firebase-function/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "projects/firebase-function/src/index.ts",
+        "hash": "1243099729296514025",
+        "deps": [
+          "npm:firebase-functions"
+        ]
+      },
+      {
+        "file": "projects/firebase-function/tooling/generate-package-json/bin.ts",
+        "hash": "10127118346836376427"
+      },
+      {
+        "file": "projects/firebase-function/tooling/generate-package-json/generate-package-json.impl.ts",
+        "hash": "9679103059860470073",
+        "deps": [
+          "npm:node:fs",
+          "npm:node:path"
+        ]
+      },
+      {
+        "file": "projects/firebase-function/tooling/utils.ts",
+        "hash": "15860140364111096636",
+        "deps": [
+          "npm:node:fs",
+          "npm:node:path"
+        ]
+      },
+      {
+        "file": "projects/firebase-function/tsconfig.function.json",
+        "hash": "10940390723388785237"
+      },
+      {
+        "file": "projects/firebase-function/tsconfig.json",
+        "hash": "1641173141711606318"
+      },
+      {
+        "file": "projects/firebase-function/tsconfig.spec.json",
+        "hash": "16046929630123820229"
+      },
+      {
+        "file": "projects/firebase-function/tsconfig.tooling.json",
+        "hash": "4602316123794405057"
+      },
+      {
+        "file": "projects/firebase-function/user-flows/ci-flow.uf.ts",
+        "hash": "17206186283475777047",
+        "deps": [
+          "npm:@push-based/user-flow",
+          "movies-user-flows"
+        ]
+      }
+    ],
+    "movies": [
+      {
+        "file": "projects/movies/.eslintrc.json",
+        "hash": "18048093710391185958"
+      },
+      {
+        "file": "projects/movies/.user-flowrc.json",
+        "hash": "3167498133750792025"
+      },
+      {
+        "file": "projects/movies/Readme.md",
+        "hash": "6046444107731000002"
+      },
+      {
+        "file": "projects/movies/project.json",
+        "hash": "16271454525668689278"
+      },
+      {
+        "file": "projects/movies/src/_routes.json",
+        "hash": "14866430215874585036"
+      },
+      {
+        "file": "projects/movies/src/app/app-shell/account-menu/account-menu.component.html",
+        "hash": "13987765641824802648"
+      },
+      {
+        "file": "projects/movies/src/app/app-shell/account-menu/account-menu.component.scss",
+        "hash": "18390332637519136907"
+      },
+      {
+        "file": "projects/movies/src/app/app-shell/account-menu/account-menu.component.ts",
+        "hash": "7449449937662552946",
+        "deps": [
+          "npm:@rx-angular/template",
+          "npm:@rx-angular/state",
+          "npm:@angular/core",
+          "npm:@angular/router"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/app-shell/app-shell.component.html",
+        "hash": "4460655690882032191"
+      },
+      {
+        "file": "projects/movies/src/app/app-shell/app-shell.component.scss",
+        "hash": "7373697049362420217"
+      },
+      {
+        "file": "projects/movies/src/app/app-shell/app-shell.component.ts",
+        "hash": "4567212746607612206",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@angular/common",
+          "npm:@angular/core",
+          "npm:@angular/router",
+          "npm:rxjs",
+          "npm:@rx-angular/template",
+          "npm:@push-based/ngx-fast-svg"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/app.base.config.ts",
+        "hash": "7788421293137271333",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@angular/router",
+          "npm:@rx-angular/state",
+          "npm:@angular/platform-browser"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/app.component.standalone.ts",
+        "hash": "10938745772471195669",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@angular/router",
+          "npm:@rx-angular/template"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/app.component.ts",
+        "hash": "6745517249227783382",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/app.config.ts",
+        "hash": "3035457593662399094",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@push-based/ngx-fast-svg",
+          "npm:@angular/common",
+          "npm:@rx-angular/cdk",
+          "npm:@angular/service-worker"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/app.module.ts",
+        "hash": "18188224083787020983",
+        "deps": [
+          "npm:@angular/router",
+          "npm:@angular/core",
+          "npm:@angular/platform-browser",
+          "npm:@rx-angular/template"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/auth/access-token-facade.service.ts",
+        "hash": "2115095168019410569",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/auth/auth.effects.ts",
+        "hash": "14291377299586068775",
+        "deps": [
+          "npm:@angular/common",
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/auth/tmdb-http-interceptor.feature.ts",
+        "hash": "1703502345526668603",
+        "deps": [
+          "npm:@angular/common",
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/constants.ts",
+        "hash": "12379292153567009566"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/filter/filter.interface.ts",
+        "hash": "75586296509260032"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/model/configuration.model.ts",
+        "hash": "7944719295800419104"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/model/guest-session.interface.ts",
+        "hash": "7926202048532368266"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/model/list.model.ts",
+        "hash": "3482430101771490894"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/model/movie-credits.model.ts",
+        "hash": "1894105363574029458"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/model/movie-details.model.ts",
+        "hash": "1247244754266126653"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/model/movie-genre.model.ts",
+        "hash": "15189317169983827606"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/model/movie.model.ts",
+        "hash": "9888188084094156912"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/model/person.model.ts",
+        "hash": "11028376143144742341"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/paginate/paginate.interface.ts",
+        "hash": "5871072374116096811"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/paginate/utils.ts",
+        "hash": "18247465566772915580"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/account.resource.ts",
+        "hash": "4689198026202389085",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/common",
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/authv3.resource.ts",
+        "hash": "11779561969431559284",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/authv4.resource.ts",
+        "hash": "9314188039620068924",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/configuration.resource.ts",
+        "hash": "6243219845636872703",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/discover.resource.ts",
+        "hash": "10641015496078782474",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/genre.resource.ts",
+        "hash": "11078583077840066743",
+        "deps": [
+          "npm:rxjs",
+          "npm:@rx-angular/cdk",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/internal/base-urls.constant.ts",
+        "hash": "13319986464715555785"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/list.resource.ts",
+        "hash": "2743575752468832727",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/model/append-options.ts",
+        "hash": "16243094522168260787"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/movie.resource.ts",
+        "hash": "7426941822728663605",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/person.resource.ts",
+        "hash": "5857774272890482515",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/resources/search.resource.ts",
+        "hash": "6179855648217188480",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/sort/sort.data.ts",
+        "hash": "14907633931725649979"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/sort/sort.interface.ts",
+        "hash": "18400181032809955060"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/sort/utils.ts",
+        "hash": "17315540155052791708"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/staticRequest.ts",
+        "hash": "2448857637568787669",
+        "deps": [
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/api/tmdbContentTypeInterceptor.ts",
+        "hash": "11830237429688053770",
+        "deps": [
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/images/image-dimensions.interface.ts",
+        "hash": "3991758011195832858"
+      },
+      {
+        "file": "projects/movies/src/app/data-access/images/image-loader.ts",
+        "hash": "1881155001492943208",
+        "deps": [
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/data-access/images/image-sizes.ts",
+        "hash": "16743798222631832034"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/account-feature-page.routes.ts",
+        "hash": "16189719934702814246",
+        "deps": [
+          "npm:@angular/router",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/account-list-page/account-list-page.adapter.ts",
+        "hash": "15507804974583126230",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/state",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/account-list-page/account-list-page.component.html",
+        "hash": "5772665095082923224"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/account-list-page/account-list-page.component.scss",
+        "hash": "12962123980892571776"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/account-list-page/account-list-page.component.ts",
+        "hash": "6041107106221530586",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/template",
+          "npm:@angular/router",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-create-page/list-create-page.adapter.ts",
+        "hash": "590095967843859457",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/cdk",
+          "npm:@rx-angular/state",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-create-page/list-create-page.component.scss",
+        "hash": "1260875949636344797"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-create-page/list-create-page.component.ts",
+        "hash": "4822261124121074443",
+        "deps": [
+          "npm:@rx-angular/template",
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-detail-page.adapter.ts",
+        "hash": "11559811645425368048",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/state",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-detail-page.component.html",
+        "hash": "3709479350837543329"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-detail-page.component.scss",
+        "hash": "16539926431050630903"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-detail-page.component.ts",
+        "hash": "12568225945481404162",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/template",
+          "npm:@push-based/ngx-fast-svg",
+          "npm:@angular/router"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-detail-page.routes.ts",
+        "hash": "14922161353499653057",
+        "deps": [
+          "npm:@angular/router"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-image/list-image.component.html",
+        "hash": "11384325781660491953"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-image/list-image.component.scss",
+        "hash": "14195178044003246781"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-image/list-image.component.ts",
+        "hash": "226499242534472162",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/template",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-items-edit/list-items-edit.adapter.ts",
+        "hash": "9256050152230453392",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/cdk",
+          "npm:@rx-angular/state",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-items-edit/list-items-edit.component.html",
+        "hash": "4061466118390356606"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-items-edit/list-items-edit.component.scss",
+        "hash": "8124679819329101990"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-items-edit/list-items-edit.component.ts",
+        "hash": "1901127749276754262",
+        "deps": [
+          "npm:@rx-angular/template",
+          "npm:@angular/core",
+          "npm:@push-based/ngx-fast-svg",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-movies/list-movies.component.ts",
+        "hash": "5664579539571845302",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-remove/list-remove.component.html",
+        "hash": "887687241333564327"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-remove/list-remove.component.scss",
+        "hash": "17063819167406202724"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-remove/list-remove.component.ts",
+        "hash": "3545497563330017100",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/state",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-share/list-share.component.html",
+        "hash": "7596473460545765471"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-share/list-share.component.scss",
+        "hash": "12300804767516348897"
+      },
+      {
+        "file": "projects/movies/src/app/pages/account-feature/list-detail-page/list-share/list-share.component.ts",
+        "hash": "3151142502512713583",
+        "deps": [
+          "npm:@rx-angular/template",
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/movie-detail-page/movie-detail-page.adapter.ts",
+        "hash": "1997957423173675231",
+        "deps": [
+          "npm:@angular/core",
+          "npm:rxjs",
+          "npm:@rx-angular/state"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/movie-detail-page/movie-detail-page.component.html",
+        "hash": "10434937622363663202"
+      },
+      {
+        "file": "projects/movies/src/app/pages/movie-detail-page/movie-detail-page.component.scss",
+        "hash": "11653460101283710668"
+      },
+      {
+        "file": "projects/movies/src/app/pages/movie-detail-page/movie-detail-page.component.ts",
+        "hash": "3138074147720204206",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@angular/common",
+          "npm:@angular/core",
+          "npm:rxjs",
+          "npm:@rx-angular/template",
+          "npm:@push-based/ngx-fast-svg",
+          "npm:@angular/router"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/movie-list-page/movie-list-page.adapter.ts",
+        "hash": "15293965728681091030",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@angular/core",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/movie-list-page/movie-list-page.component.html",
+        "hash": "11968210497221850336"
+      },
+      {
+        "file": "projects/movies/src/app/pages/movie-list-page/movie-list-page.component.scss",
+        "hash": "15769471215072007904"
+      },
+      {
+        "file": "projects/movies/src/app/pages/movie-list-page/movie-list-page.component.ts",
+        "hash": "6643031925615550178",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@angular/core",
+          "npm:rxjs",
+          "npm:@angular/common",
+          "npm:@rx-angular/template"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/not-found-page/not-found-page.component.scss",
+        "hash": "18406895591169530432"
+      },
+      {
+        "file": "projects/movies/src/app/pages/not-found-page/not-found-page.component.ts",
+        "hash": "17100779988640706577",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@push-based/ngx-fast-svg"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/person-detail-page/person-detail-page.adapter.ts",
+        "hash": "12849842092495197295",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@angular/core",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/pages/person-detail-page/person-detail-page.component.html",
+        "hash": "18298998100777656473"
+      },
+      {
+        "file": "projects/movies/src/app/pages/person-detail-page/person-detail-page.component.scss",
+        "hash": "276999440348996893"
+      },
+      {
+        "file": "projects/movies/src/app/pages/person-detail-page/person-detail-page.component.ts",
+        "hash": "12258956165372468858",
+        "deps": [
+          "npm:@angular/common",
+          "npm:@angular/core",
+          "npm:rxjs",
+          "npm:@rx-angular/template",
+          "npm:@push-based/ngx-fast-svg"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/routes.ts",
+        "hash": "9134189392412583952",
+        "deps": [
+          "npm:@angular/router"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/app-initializer.ts",
+        "hash": "13051135913109884802"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/bypass-src.directive.ts",
+        "hash": "14047752814748984115",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/coerceObservable.ts",
+        "hash": "2379504857890690078",
+        "deps": [
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/element-visibility/element-visibility.directive.ts",
+        "hash": "15816483892495278283",
+        "deps": [
+          "npm:@angular/common",
+          "npm:@angular/core",
+          "npm:@rx-angular/state",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/element-visibility/observe-element-visibility.ts",
+        "hash": "2533834063612312651",
+        "deps": [
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/get.ts",
+        "hash": "3007207834819861221"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/image/constants.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/image/image-tag.interface.ts",
+        "hash": "711318772007469561"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/image/image-tag.transform.ts",
+        "hash": "2225063775262798089"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/infinite-scroll/infinite-scroll.interface.ts",
+        "hash": "8812725557555576259"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/infinite-scroll/infiniteScroll.ts",
+        "hash": "7370400968617893574",
+        "deps": [
+          "npm:@rx-angular/cdk",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/input-type.typing.ts",
+        "hash": "8658429729344638171",
+        "deps": [
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/lazy/lazy-inject.ts",
+        "hash": "6634216225260051577",
+        "deps": [
+          "npm:rxjs",
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/lazy/lazy.directive.ts",
+        "hash": "2728343436364191312",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@angular/core",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/link/a-tag.interface.ts",
+        "hash": "13249911466051064478"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/link/a-tag.transform.ts",
+        "hash": "16241665499614448525"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/loading/context.interface.ts",
+        "hash": "2500083577185461813"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/loading/loading-state.interface.ts",
+        "hash": "17655647214641666287"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/loading/withLoadingEmissions.ts",
+        "hash": "5588996036328676795",
+        "deps": [
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/optimized-fetch.ts",
+        "hash": "16936126603006444232",
+        "deps": [
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/track-by.ts",
+        "hash": "12957787031080958809",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/video/safe-video.interface.ts",
+        "hash": "15454425104629063964",
+        "deps": [
+          "npm:@angular/platform-browser"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/video/video-tag.transform.ts",
+        "hash": "1685391528467826780"
+      },
+      {
+        "file": "projects/movies/src/app/shared/cdk/video/video.interface.ts",
+        "hash": "17302145676340728644"
+      },
+      {
+        "file": "projects/movies/src/app/shared/router/get-identifier-of-type-and-layout.util.ts",
+        "hash": "15805823084702759708",
+        "deps": [
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/router/router.model.ts",
+        "hash": "14164166334684786772"
+      },
+      {
+        "file": "projects/movies/src/app/shared/router/router.state.ts",
+        "hash": "17653479516219149791",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@angular/common",
+          "npm:@angular/core",
+          "npm:rxjs",
+          "npm:@angular/router"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/zone-less/custom-zone.ts",
+        "hash": "691938007639273883",
+        "deps": [
+          "npm:@angular/core",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/shared/zone-less/is-zone-present.ts",
+        "hash": "18302059581280116097"
+      },
+      {
+        "file": "projects/movies/src/app/shared/zone-less/zone-less-routing.service.ts",
+        "hash": "72916635876841951",
+        "deps": [
+          "npm:@angular/common",
+          "npm:@angular/core",
+          "npm:@angular/router",
+          "npm:@rx-angular/state"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/state/account.state.ts",
+        "hash": "3134704444233247092",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/state",
+          "npm:rxjs",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/state/discover.state.ts",
+        "hash": "12250459398945646503",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@rx-angular/cdk",
+          "npm:@angular/core",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/state/list.state.ts",
+        "hash": "10282600087797920581",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/state",
+          "npm:rxjs",
+          "npm:@angular/router",
+          "npm:@rx-angular/cdk"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/state/movie.state.ts",
+        "hash": "11483737812526702597",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@rx-angular/cdk",
+          "npm:@angular/core",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/state/person.state.ts",
+        "hash": "5837743195206021767",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@rx-angular/cdk",
+          "npm:@angular/core",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/state/state-app-initializer.provider.ts",
+        "hash": "6578615455082906541",
+        "deps": [
+          "npm:@angular/core",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/.eslintrc.json",
+        "hash": "4155296926246973376"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/aspect-ratio/aspect-ratio.scss",
+        "hash": "11193158164728109383"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/backdrop/backdrop.component.scss",
+        "hash": "13769083446620327241"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/backdrop/backdrop.component.ts",
+        "hash": "1814085500676169095",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/button/_button.scss",
+        "hash": "10411254545931451912"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/dark-mode-toggle/dark-mode-toggle.component.scss",
+        "hash": "9238726093368045031"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/dark-mode-toggle/dark-mode-toggle.component.ts",
+        "hash": "3689545477000913779",
+        "deps": [
+          "npm:@angular/common",
+          "npm:@angular/core",
+          "npm:@rx-angular/state",
+          "npm:@rx-angular/template"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/detail-grid/detail-grid.component.scss",
+        "hash": "13597502283146684641"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/detail-grid/detail-grid.component.ts",
+        "hash": "4089206599565451027",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/dialog/dialog.component.scss",
+        "hash": "17107663995145592149"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/grid-list/grid-list.component.scss",
+        "hash": "7893684424310601317"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/grid-list/grid-list.component.ts",
+        "hash": "3609413536729918883",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/hamburger-button/hamburger-button.component.html",
+        "hash": "2321532208664347271"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/hamburger-button/hamburger-button.component.scss",
+        "hash": "17242544647645943265"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/hamburger-button/hamburger-button.component.ts",
+        "hash": "715391598865070900",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/icons/icon-data.ts",
+        "hash": "3535294248943550979"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/loader/loader.scss",
+        "hash": "13688585794663367838"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/search-bar/search-bar.component.scss",
+        "hash": "8962638408052798611"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/search-bar/search-bar.component.ts",
+        "hash": "6750944648923139053",
+        "deps": [
+          "npm:@rx-angular/state",
+          "npm:@angular/common",
+          "npm:@angular/core",
+          "npm:rxjs",
+          "npm:@rx-angular/cdk",
+          "npm:@rx-angular/template",
+          "npm:@push-based/ngx-fast-svg"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/side-drawer/side-drawer.component.scss",
+        "hash": "9849711252400805354"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/side-drawer/side-drawer.component.ts",
+        "hash": "17416751030084030214",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@rx-angular/state"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/tabs/_tabs.scss",
+        "hash": "8350932114008133011"
+      },
+      {
+        "file": "projects/movies/src/app/ui/component/tooltip/_tooltip.scss",
+        "hash": "3102051648345006396"
+      },
+      {
+        "file": "projects/movies/src/app/ui/pattern/movie-list/movie-list.component.scss",
+        "hash": "13436808603989773838"
+      },
+      {
+        "file": "projects/movies/src/app/ui/pattern/movie-list/movie-list.component.ts",
+        "hash": "6444414769774977059",
+        "deps": [
+          "npm:@angular/common",
+          "npm:@rx-angular/state",
+          "npm:@angular/core",
+          "npm:rxjs",
+          "npm:@angular/router",
+          "npm:@rx-angular/template",
+          "npm:@push-based/ngx-fast-svg"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/pattern/star-rating/star-rating.component.scss",
+        "hash": "1221650522603869079"
+      },
+      {
+        "file": "projects/movies/src/app/ui/pattern/star-rating/star-rating.component.ts",
+        "hash": "7050575754101126369",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/_dark-light-mode.scss",
+        "hash": "13390599700696945080"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/_gradient.scss",
+        "hash": "5049896636889992311"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/_typography.scss",
+        "hash": "17814494049977506805"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/mixins/_flex.scss",
+        "hash": "6851853946729373292"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/mixins/media.scss",
+        "hash": "10872482528668498366"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/variables/_animations.scss",
+        "hash": "7166873153269694375"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/variables/_aspectRatio.scss",
+        "hash": "13636858980450965971"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/variables/_borderRadius.scss",
+        "hash": "7070868498349436926"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/variables/_colors.scss",
+        "hash": "2818605957794815797"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/variables/_fontSize.scss",
+        "hash": "10985567676988512810"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/variables/_media.scss",
+        "hash": "10647411379251232708"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/variables/_shadow.scss",
+        "hash": "7044914864910214179"
+      },
+      {
+        "file": "projects/movies/src/app/ui/token/variables/_zIndex.scss",
+        "hash": "1118128039144046889"
+      },
+      {
+        "file": "projects/movies/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/android-chrome-192x192.png",
+        "hash": "11817945142978849315"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/android-chrome-384x384.png",
+        "hash": "4975242529349153005"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/android-chrome-512x512.png",
+        "hash": "2578593828837710938"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/apple-touch-icon.png",
+        "hash": "8415861025407503737"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/browserconfig.xml",
+        "hash": "6818257873516693125"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/favicon-16x16.png",
+        "hash": "11316459815483346193"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/favicon-32x32.png",
+        "hash": "6441970168721874778"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/favicon.ico",
+        "hash": "1156788842965212164"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/icon-128x128.png",
+        "hash": "10744121938842754655"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/icon-144x144.png",
+        "hash": "6047735668323804535"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/icon-152x152.png",
+        "hash": "4921212892574698316"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/icon-192x192.png",
+        "hash": "12824737385881390904"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/icon-384x384.png",
+        "hash": "2967189665296909131"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/icon-512x512.png",
+        "hash": "5049794496043415500"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/icon-72x72.png",
+        "hash": "9648134400647315633"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/icon-96x96.png",
+        "hash": "3809301087591037102"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/icone.png",
+        "hash": "5752168241558175099"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/light-apple-touch-icon.png",
+        "hash": "9339711613975704114"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/mstile-150x150.png",
+        "hash": "18389923944636369331"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/safari-pinned-tab.svg",
+        "hash": "13815583782741137956"
+      },
+      {
+        "file": "projects/movies/src/assets/icons/site.webmanifest",
+        "hash": "1303749387375166375"
+      },
+      {
+        "file": "projects/movies/src/assets/images/no_poster_available.jpg",
+        "hash": "4009423654161015591"
+      },
+      {
+        "file": "projects/movies/src/assets/images/nothing.svg",
+        "hash": "9211845806947883333"
+      },
+      {
+        "file": "projects/movies/src/assets/images/tmdbgreen.svg",
+        "hash": "12220505049953349345"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/account.svg",
+        "hash": "11054556215036624850"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/back.svg",
+        "hash": "3796303022654727582"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/delete.svg",
+        "hash": "7511364119413565898"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/error.svg",
+        "hash": "3843402185336269405"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/genre.svg",
+        "hash": "9600157332709456964"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/imdb.svg",
+        "hash": "7707705037255028119"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/movies-logo.svg",
+        "hash": "13026340496325533535"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/play.svg",
+        "hash": "8186364380435062640"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/popular.svg",
+        "hash": "800540084620142876"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/sad.svg",
+        "hash": "5835659589678682179"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/search.svg",
+        "hash": "12809479055469461728"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/tmdb-logo.svg",
+        "hash": "10976333350512704362"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/top_rated.svg",
+        "hash": "5472600874614002663"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/upcoming.svg",
+        "hash": "10113371029296765124"
+      },
+      {
+        "file": "projects/movies/src/assets/svg-icons/website.svg",
+        "hash": "5020686292288800820"
+      },
+      {
+        "file": "projects/movies/src/env.token.ts",
+        "hash": "18322175249631188160",
+        "deps": [
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/environments/.gitignore",
+        "hash": "5841615940672028016"
+      },
+      {
+        "file": "projects/movies/src/environments/environment.local.example.ts",
+        "hash": "5389368709984182164"
+      },
+      {
+        "file": "projects/movies/src/environments/environment.production.ts",
+        "hash": "15816350211568833180"
+      },
+      {
+        "file": "projects/movies/src/environments/environment.ts",
+        "hash": "877962437316483844"
+      },
+      {
+        "file": "projects/movies/src/favicon.ico",
+        "hash": "1156788842965212164"
+      },
+      {
+        "file": "projects/movies/src/index.html",
+        "hash": "6165113682299434801"
+      },
+      {
+        "file": "projects/movies/src/index.original.html",
+        "hash": "4760308141236277675"
+      },
+      {
+        "file": "projects/movies/src/index.ts",
+        "hash": "13565472451665929338",
+        "deps": [
+          "npm:@angular/platform-browser",
+          "npm:@angular/core"
+        ]
+      },
+      {
+        "file": "projects/movies/src/main.ts",
+        "hash": "16440357711267034801",
+        "deps": [
+          "npm:@angular/platform-browser-dynamic"
+        ]
+      },
+      {
+        "file": "projects/movies/src/manifest.webmanifest",
+        "hash": "7018209777542928802"
+      },
+      {
+        "file": "projects/movies/src/ngsw-config.json",
+        "hash": "17299362157743451960"
+      },
+      {
+        "file": "projects/movies/src/styles.scss",
+        "hash": "7338567095173696122"
+      },
+      {
+        "file": "projects/movies/src/styles/_normalize.scss",
+        "hash": "16976592832663034086"
+      },
+      {
+        "file": "projects/movies/testing/budgets/angular.budgets.json",
+        "hash": "17743240995896713891"
+      },
+      {
+        "file": "projects/movies/testing/budgets/general-timing.budgets.json",
+        "hash": "2049757058826094759"
+      },
+      {
+        "file": "projects/movies/testing/budgets/movie-detail.budgets.json",
+        "hash": "1137689221550891631"
+      },
+      {
+        "file": "projects/movies/testing/budgets/movie-list.budgets.json",
+        "hash": "11017886956437429832"
+      },
+      {
+        "file": "projects/movies/testing/budgets/person-detail.budgets.json",
+        "hash": "5593962527137311650"
+      },
+      {
+        "file": "projects/movies/testing/budgets/test-set.json",
+        "hash": "8141765829053604352"
+      },
+      {
+        "file": "projects/movies/testing/index.ts",
+        "hash": "15559514341381194603"
+      },
+      {
+        "file": "projects/movies/testing/internals/consts.ts",
+        "hash": "13634361395930625337"
+      },
+      {
+        "file": "projects/movies/testing/internals/typings.ts",
+        "hash": "8743359967592801673"
+      },
+      {
+        "file": "projects/movies/tsconfig.app.json",
+        "hash": "13709652223178204015"
+      },
+      {
+        "file": "projects/movies/tsconfig.editor.json",
+        "hash": "6367495026318685054"
+      },
+      {
+        "file": "projects/movies/tsconfig.json",
+        "hash": "17542666172531060622"
+      },
+      {
+        "file": "projects/movies/tsconfig.uf.json",
+        "hash": "5514627174744674651"
+      },
+      {
+        "file": "projects/movies/user-flows/account-feature.uf.ts",
+        "hash": "12065094691626706022",
+        "deps": [
+          "npm:@push-based/user-flow",
+          "movies-user-flows",
+          "npm:lighthouse"
+        ]
+      },
+      {
+        "file": "projects/movies/user-flows/ci-flow.uf.ts",
+        "hash": "11519936815146637808",
+        "deps": [
+          "npm:@push-based/user-flow",
+          "movies-user-flows",
+          "npm:lighthouse"
+        ]
+      },
+      {
+        "file": "projects/movies/user-flows/navigation.uf.ts",
+        "hash": "2346390288083768712",
+        "deps": [
+          "npm:@push-based/user-flow",
+          "movies-user-flows",
+          "npm:lighthouse"
+        ]
+      }
+    ],
+    "test-selectors": [
+      {
+        "file": "projects/test-selectors/.eslintrc.json",
+        "hash": "17568853231259790505"
+      },
+      {
+        "file": "projects/test-selectors/README.md",
+        "hash": "5814229858162141167"
+      },
+      {
+        "file": "projects/test-selectors/jest.config.ts",
+        "hash": "14117021472364279077"
+      },
+      {
+        "file": "projects/test-selectors/project.json",
+        "hash": "5059553244041884710"
+      },
+      {
+        "file": "projects/test-selectors/src/index.ts",
+        "hash": "12826986029577284041"
+      },
+      {
+        "file": "projects/test-selectors/src/lib/fixtures/animations.ts",
+        "hash": "16629527470902266411"
+      },
+      {
+        "file": "projects/test-selectors/src/lib/fixtures/general.ts",
+        "hash": "16844318177592394967"
+      },
+      {
+        "file": "projects/test-selectors/src/lib/fixtures/heading.ts",
+        "hash": "4548872684073688565"
+      },
+      {
+        "file": "projects/test-selectors/src/lib/fixtures/movie-detail-page.ts",
+        "hash": "9409062982910020114"
+      },
+      {
+        "file": "projects/test-selectors/src/lib/fixtures/rendering.ts",
+        "hash": "14329272955980941516"
+      },
+      {
+        "file": "projects/test-selectors/src/lib/fixtures/sidebar.ts",
+        "hash": "15554258609085033261"
+      },
+      {
+        "file": "projects/test-selectors/src/lib/fixtures/toolbar.ts",
+        "hash": "5983662339349043888"
+      },
+      {
+        "file": "projects/test-selectors/src/lib/fixtures/ui-cast-list.ts",
+        "hash": "17779051031199392091"
+      },
+      {
+        "file": "projects/test-selectors/src/lib/fixtures/ui-movie-list.ts",
+        "hash": "8462776056845861727"
+      },
+      {
+        "file": "projects/test-selectors/src/test-setup.ts",
+        "hash": "12935735732682149507",
+        "deps": [
+          "npm:jest-preset-angular/setup-jest"
+        ]
+      },
+      {
+        "file": "projects/test-selectors/tsconfig.json",
+        "hash": "15487755565970508470"
+      },
+      {
+        "file": "projects/test-selectors/tsconfig.lib.json",
+        "hash": "2825306509998955456"
+      },
+      {
+        "file": "projects/test-selectors/tsconfig.lib.prod.json",
+        "hash": "10809217796916261822"
+      },
+      {
+        "file": "projects/test-selectors/tsconfig.spec.json",
+        "hash": "2603749948448943150"
+      }
+    ],
+    "ng-universal-express": [
+      {
+        "file": "projects/ng-universal-express/.eslintrc.json",
+        "hash": "17978237886124107252"
+      },
+      {
+        "file": "projects/ng-universal-express/.user-flowrc.json",
+        "hash": "3167498133750792025"
+      },
+      {
+        "file": "projects/ng-universal-express/README.md",
+        "hash": "10163029346950077807"
+      },
+      {
+        "file": "projects/ng-universal-express/jest.config.ts",
+        "hash": "13869512347578285952"
+      },
+      {
+        "file": "projects/ng-universal-express/project.json",
+        "hash": "5544121187091246207"
+      },
+      {
+        "file": "projects/ng-universal-express/routes.base.txt",
+        "hash": "11759723319604393901"
+      },
+      {
+        "file": "projects/ng-universal-express/src/app/app.config.ts",
+        "hash": "14538147492561102870",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@angular/platform-server",
+          "npm:@push-based/ngx-fast-svg",
+          "npm:@rx-angular/cdk",
+          "npm:@angular/common",
+          "movies",
+          "npm:node:path",
+          "npm:node:process"
+        ]
+      },
+      {
+        "file": "projects/ng-universal-express/src/app/bootstrap.ts",
+        "hash": "4681000138131700502",
+        "deps": [
+          "movies",
+          "npm:zone.js"
+        ]
+      },
+      {
+        "file": "projects/ng-universal-express/src/app/http-timing.interceptor.ts",
+        "hash": "18033494619220883365",
+        "deps": [
+          "npm:@angular/common",
+          "npm:rxjs",
+          "npm:@angular/core",
+          "npm:@nguniversal/express-engine"
+        ]
+      },
+      {
+        "file": "projects/ng-universal-express/src/app/icon-load.ssr.strategy.ts",
+        "hash": "12253895838380645973",
+        "deps": [
+          "npm:@angular/core",
+          "npm:@push-based/ngx-fast-svg",
+          "npm:node:fs",
+          "npm:node:path",
+          "npm:rxjs"
+        ]
+      },
+      {
+        "file": "projects/ng-universal-express/src/app/utils.ts",
+        "hash": "3442741770195683505",
+        "deps": [
+          "npm:compression",
+          "npm:express",
+          "npm:server-timing"
+        ]
+      },
+      {
+        "file": "projects/ng-universal-express/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "projects/ng-universal-express/src/index.ts",
+        "hash": "17973784683986678723",
+        "deps": [
+          "npm:zone.js",
+          "npm:express",
+          "npm:node:fs",
+          "npm:node:path",
+          "npm:@nguniversal/express-engine",
+          "npm:@angular/common"
+        ]
+      },
+      {
+        "file": "projects/ng-universal-express/src/main.ts",
+        "hash": "17939990893840503565"
+      },
+      {
+        "file": "projects/ng-universal-express/tooling/generate-routes/bin.ts",
+        "hash": "10127118346836376427"
+      },
+      {
+        "file": "projects/ng-universal-express/tooling/generate-routes/generate-routes.impl.ts",
+        "hash": "4020016025688170519",
+        "deps": [
+          "npm:node:fs",
+          "npm:node:path",
+          "npm:node:os",
+          "movies"
+        ]
+      },
+      {
+        "file": "projects/ng-universal-express/tooling/generate-routes/generate-routes.spec.ts",
+        "hash": "15934805178290267530",
+        "deps": [
+          "npm:node:fs",
+          "npm:node:path"
+        ]
+      },
+      {
+        "file": "projects/ng-universal-express/tooling/utils.ts",
+        "hash": "10257090509725759887"
+      },
+      {
+        "file": "projects/ng-universal-express/tsconfig.app.json",
+        "hash": "1958136174221425770"
+      },
+      {
+        "file": "projects/ng-universal-express/tsconfig.json",
+        "hash": "3490524966360018312"
+      },
+      {
+        "file": "projects/ng-universal-express/tsconfig.serve.json",
+        "hash": "16596054232265627880"
+      },
+      {
+        "file": "projects/ng-universal-express/tsconfig.spec.json",
+        "hash": "17021188871561188519"
+      },
+      {
+        "file": "projects/ng-universal-express/tsconfig.tooling.json",
+        "hash": "4602316123794405057"
+      },
+      {
+        "file": "projects/ng-universal-express/user-flows/ci-flow.uf.ts",
+        "hash": "1204859868694713609",
+        "deps": [
+          "npm:@push-based/user-flow",
+          "test-selectors",
+          "movies-user-flows"
+        ]
+      }
+    ]
+  }
+}
