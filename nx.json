@@ -1,8 +1,6 @@
 {
   "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx-cloud"
-    }
+    "default": {}
   },
   "affected": {
     "defaultBase": "origin/main"
